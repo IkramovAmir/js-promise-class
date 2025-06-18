@@ -7,7 +7,7 @@ let promise1 = new Promise((resolve, reject) => {
 let promise2 = new Promise((resolve, reject) => {
     if (isNaN("b")) {
         resolve("promise2 resolve");
-~    } else reject("promise2 reject");
+    } else reject("promise2 reject");
 });
 let promise3 = new Promise((resolve, reject) => {
     if (isNaN(3)) {
